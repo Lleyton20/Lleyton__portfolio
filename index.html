@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lleyton Magama | Software Engineer Portfolio</title>
+  <meta name="description" content="Software engineering portfolio for Lleyton Magama — builder, teammate, and CS student at Grambling State University." />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="floating-orbs" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav">
+    <a href="#home" class="brand"><span>&lt;/&gt;</span> Lleyton Magama</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav class="links">
+      <span class="nav-pill" aria-hidden="true"></span>
+      <a href="#about" data-nav="about"><span class="nav-dot"></span>About</a>
+      <a href="#experience" data-nav="experience"><span class="nav-dot"></span>Experience</a>
+      <a href="#projects" data-nav="projects"><span class="nav-dot"></span>Projects</a>
+      <a href="#gallery" data-nav="gallery"><span class="nav-dot"></span>Gallery</a>
+      <a href="#building" data-nav="building"><span class="nav-dot"></span>Building</a>
+      <a href="#contact" data-nav="contact"><span class="nav-dot"></span>Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section reveal">
+      <div class="hero-copy">
+        <p class="badge">Software Engineer • Full-Stack • Product Engineering</p>
+        <h1>Lleyton Magama</h1>
+        <h2>Building products. <span>Solving real problems.</span></h2>
+        <p class="hero-text">
+          Computer Science student at Grambling State University building web apps, dashboards,
+          mobile product flows, and real-world software experiences.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="assets/Lleyton-Magama-Resume.pdf">Download Resume</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/Lleyton20" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/lleyton-magama-57721826a/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:lleytonedu2001@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="tech-icon code">&lt;/&gt;</div>
+        <div class="tech-icon py">Py</div>
+        <div class="tech-icon db">SQL</div>
+        <img src="assets/hero.jpg" alt="Lleyton Magama professional portrait" />
+      </div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <div>
+        <p class="section-label">About Me</p>
+        <h2>Nice to meet you — <span>let's build cool things.</span></h2>
+        <p>
+          Hey! I'm originally from Zimbabwe and studying Computer Science at Grambling State University.
+          I love building software people actually use — web apps, dashboards, mobile flows, and tools
+          that make everyday problems a little easier to solve.
+        </p>
+      </div>
+      <div class="stats">
+        <article><strong class="counter" data-target="3.9" data-decimals="1">0</strong><span>GPA</span></article>
+        <article><strong class="counter" data-target="10" data-suffix="+">0</strong><span>Technical Projects</span></article>
+        <article><strong class="counter" data-target="1000" data-suffix="+" data-compact>0</strong><span>LoKo LinkedIn Community</span></article>
+        <article class="stat-text"><strong>CS</strong><span>Grambling State University</span></article>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <p class="section-label">Experience</p>
+      <h2>Where I've learned and shipped.</h2>
+
+      <div class="timeline">
+        <article class="experience-card current-role">
+          <div class="logo text-logo loko">LoKo</div>
+          <span class="role-badge">Current</span>
+          <h3>Software Engineer</h3>
+          <p>Firebase • TestFlight • GitHub • Maps</p>
+          <ul>
+            <li>Currently building and shipping product features at LoKo.</li>
+            <li>Develop login, signup, homepage, and map-based UI flows.</li>
+            <li>Validate beta builds and support production releases.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div class="logo text-logo telone">TelOne</div>
+          <h3>Software Engineering Intern</h3>
+          <p>Python • APIs • SQL • Dashboards</p>
+          <ul>
+            <li>Built customer subscription dashboards for internal reporting.</li>
+            <li>Automated data analysis workflows using Python, APIs, and SQL.</li>
+            <li>Improved reporting by reducing manual spreadsheet work.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div class="logo campus-logo"><img src="assets/campus-pop-logo.png" alt="Campus Pop logo"></div>
+          <h3>Co-Developer</h3>
+          <p>Campus Pop / JSU • Full-Stack • Product</p>
+          <ul>
+            <li>Co-developed student-facing screens and campus engagement flows.</li>
+            <li>Built and tested event, community, and interaction features.</li>
+            <li>Collaborated on navigation and user experience improvements.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div class="logo text-logo gsu">G</div>
+          <h3>Research Assistant</h3>
+          <p>Python • Data Analysis • Visualization</p>
+          <ul>
+            <li>Analyzed student and research data using Python.</li>
+            <li>Created data processing scripts for analysis workflows.</li>
+            <li>Supported reproducible research and reporting.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-row">
+        <div>
+          <p class="section-label">Projects</p>
+          <h2>Things I've been building.</h2>
+        </div>
+        <a href="#contact" class="small-link">Ask about my work →</a>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-shot gradient-shot">OfferFlow</div>
+          <div class="project-head">
+            <h3>OfferFlow</h3>
+            <span class="status">In Progress</span>
+          </div>
+          <p>Job application tracker for students managing applications, interviews, offers, and follow-ups.</p>
+          <div class="tags"><span>React</span><span>Python</span><span>PostgreSQL</span><span>Flask/FastAPI</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-shot blue-shot">Tickets + QR</div>
+          <div class="project-head">
+            <h3>Event Ticketing System</h3>
+            <span class="status">In Progress</span>
+          </div>
+          <p>Python-based event system for creating events, managing tickets, and organizing attendees.</p>
+          <div class="tags"><span>Python</span><span>QR Codes</span><span>Admin Logic</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-shot steel-shot">Welding Co.</div>
+          <div class="project-head">
+            <h3>Welding Company Website</h3>
+            <span class="status">In Progress</span>
+          </div>
+          <p>Responsive business website with service booking, customer contact forms, and maps.</p>
+          <div class="tags"><span>React</span><span>Firebase</span><span>Maps API</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-shot ai-shot">AI Review</div>
+          <div class="project-head">
+            <h3>AI Resume Reviewer</h3>
+            <span class="status planned">Planned</span>
+          </div>
+          <p>AI tool for resume scoring, keyword matching, and internship-focused improvement suggestions.</p>
+          <div class="tags"><span>Python</span><span>OpenAI API</span><span>React</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery reveal">
+      <p class="section-label">Gallery</p>
+      <h2>A little about the person <span>behind the code.</span></h2>
+      <p class="gallery-intro">Professional when it counts — curious, creative, and always up for a good conversation.</p>
+
+      <div class="photo-gallery">
+        <figure class="photo-card photo-feature">
+          <img src="assets/conference.png" alt="Lleyton at a professional networking event" loading="lazy" />
+          <figcaption>Networking & events</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="assets/hero.jpg" alt="Lleyton Magama professional portrait" loading="lazy" />
+          <figcaption>Portrait</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="assets/gallery-art.png" alt="Lleyton viewing art at a gallery" loading="lazy" />
+          <figcaption>Art & culture</figcaption>
+        </figure>
+        <figure class="photo-card photo-wide">
+          <img src="assets/about.jpg" alt="Lleyton viewing artwork in a museum" loading="lazy" />
+          <figcaption>Museum day</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="assets/conference.jpg" alt="Lleyton at a professional conference" loading="lazy" />
+          <figcaption>Conference</figcaption>
+        </figure>
+      </div>
+
+      <div class="photo-strip" aria-hidden="true">
+        <div class="photo-strip-track">
+          <img src="assets/hero.jpg" alt="" />
+          <img src="assets/conference.png" alt="" />
+          <img src="assets/gallery-art.png" alt="" />
+          <img src="assets/about.jpg" alt="" />
+          <img src="assets/conference.jpg" alt="" />
+          <img src="assets/hero.jpg" alt="" />
+          <img src="assets/conference.png" alt="" />
+          <img src="assets/gallery-art.png" alt="" />
+          <img src="assets/about.jpg" alt="" />
+          <img src="assets/conference.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="building" class="section building reveal">
+      <div class="build-copy">
+        <p class="section-label">Currently Building</p>
+        <h2>What's keeping me busy right now.</h2>
+        <p>A peek at the projects and products I'm actively working on.</p>
+      </div>
+      <div class="build-list">
+        <div><span></span> LoKo — software engineering & product features</div>
+        <div><span></span> OfferFlow — internship application tracker</div>
+        <div><span></span> Campus Pop — co-developing JSU engagement features</div>
+        <div><span></span> Welding Company Website — business-ready client site</div>
+      </div>
+    </section>
+
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee">
+        <span>React</span><span>Python</span><span>Firebase</span><span>PostgreSQL</span>
+        <span>TypeScript</span><span>Flask</span><span>SQL</span><span>Maps API</span>
+        <span>GitHub</span><span>TestFlight</span><span>UI/UX</span><span>APIs</span>
+        <span>React</span><span>Python</span><span>Firebase</span><span>PostgreSQL</span>
+        <span>TypeScript</span><span>Flask</span><span>SQL</span><span>Maps API</span>
+        <span>GitHub</span><span>TestFlight</span><span>UI/UX</span><span>APIs</span>
+      </div>
+    </div>
+
+    <section id="contact" class="section contact reveal">
+      <p class="section-label">Contact</p>
+      <h2>Let's connect.</h2>
+      <p>Whether it's an internship, a collab, or just saying hi — I'd love to hear from you.</p>
+
+      <div class="contact-layout">
+        <div class="contact-channels">
+          <a href="mailto:lmagama@gsumail.gram.edu" class="channel-card">
+            <span class="channel-icon">✉</span>
+            <strong>GSU Email</strong>
+            <span>lmagama@gsumail.gram.edu</span>
+          </a>
+          <a href="mailto:lleytonedu2001@gmail.com" class="channel-card">
+            <span class="channel-icon">✉</span>
+            <strong>Personal Email</strong>
+            <span>lleytonedu2001@gmail.com</span>
+          </a>
+          <a href="tel:+14803709238" class="channel-card">
+            <span class="channel-icon">📱</span>
+            <strong>Phone / Text</strong>
+            <span>(480) 370-9238</span>
+          </a>
+          <a href="https://www.linkedin.com/in/lleyton-magama-57721826a/" target="_blank" rel="noopener" class="channel-card">
+            <span class="channel-icon">in</span>
+            <strong>LinkedIn</strong>
+            <span>lleyton-magama</span>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <h3>Send a message</h3>
+          <p class="form-hint">Write your message and pick how you'd like me to respond.</p>
+
+          <label>
+            Your Name
+            <input type="text" name="name" placeholder="Jane Recruiter" required />
+          </label>
+
+          <label>
+            Your Email
+            <input type="email" name="reply-email" placeholder="you@company.com" required />
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Hi Lleyton, I'd love to connect about..." required></textarea>
+          </label>
+
+          <fieldset class="contact-method">
+            <legend>Contact me via</legend>
+            <label class="method-option">
+              <input type="radio" name="method" value="gsu" checked />
+              <span>GSU Email</span>
+            </label>
+            <label class="method-option">
+              <input type="radio" name="method" value="personal" />
+              <span>Personal Email</span>
+            </label>
+            <label class="method-option">
+              <input type="radio" name="method" value="phone" />
+              <span>Phone / Text</span>
+            </label>
+            <label class="method-option">
+              <input type="radio" name="method" value="linkedin" />
+              <span>LinkedIn</span>
+            </label>
+          </fieldset>
+
+          <button type="submit" class="btn primary form-submit">Send Message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Lleyton Magama. Thanks for stopping by.</footer>
+</body>
+</html>
