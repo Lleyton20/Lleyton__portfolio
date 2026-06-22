@@ -1,21 +1,27 @@
-# Lleyton Magama Portfolio Website
+## Lleyton Magama Portfolio
 
-A dark animated portfolio website built from scratch.
+Welcome to my personal portfolio website.
 
-## Features
-- Dark non-static theme
-- Electric blue accents
-- Smooth scroll reveal animations
-- Floating tech icons
-- Animated project status badges
-- Real Campus Pop logo from uploaded image
-- Personal photos included
-- Responsive mobile layout
+This portfolio showcases my software engineering projects, technical skills, professional experience, leadership activities, and ongoing work in technology.
 
-## How to run
-Open `index.html` in your browser.
+The site features selected projects including Campus Pop, Loko, and other development work, along with information about my background as a Computer Science student and aspiring software engineer.
 
-## How to customize
-- Replace the LinkedIn URL in `index.html`
-- Add your resume PDF as `assets/Lleyton-Magama-Resume.pdf`
-- Add real deployed project links when ready
+## Live Website
+
+Coming Soon
+
+## Technologies
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+
+## Contact
+
+* LinkedIn: [www.linkedin.com/in/lleyton-magama](http://www.linkedin.com/in/lleyton-magama)
+* GitHub: https://github.com/Lleyton20
+
+Thank you for visiting.
+
